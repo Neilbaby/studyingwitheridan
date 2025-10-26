@@ -10,6 +10,15 @@ h1 {
     color: #fff;
 }
 
+.rainbow-text {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+  font-size: 3em; 
+  font-weight: bold;
+}
+
 #searchBar {
     display: block;
     margin: 20px auto;
@@ -269,6 +278,7 @@ body:not(.dark-mode) #sortOptions {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 
 
 
