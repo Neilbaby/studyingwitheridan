@@ -61,9 +61,9 @@ h1 {
 .zone-item button {
     width: 100%;
     padding: 10px;
-    border: none;
-    background-color: #007bff;
-    color: white;
+    border: dotted;
+    background-color: ##08ff35;
+    color: black;
     cursor: pointer;
     border-radius: 0 0 5px 5px;
     font-size: 14px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .zone-item button:hover {
-    background-color: #0056b3;
+    background-color: #0dd632;
 }
 
 #zoneViewer {
@@ -279,6 +279,7 @@ body:not(.dark-mode) #sortOptions {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 
 
 
