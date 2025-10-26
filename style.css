@@ -15,7 +15,7 @@ h1 {
     padding: 10px;
     width: 80%;
     max-width: 800px;
-    border: 1px solid #f30fff;
+    border: 5px groove #f30fff;
     border-radius: 5px;
     font-size: 16px;
     background-color: #edea1f;
@@ -261,5 +261,6 @@ body:not(.dark-mode) #sortOptions {
     color: var(--text-color, #ffffff);
 
 }
+
 
 
