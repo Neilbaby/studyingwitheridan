@@ -149,7 +149,7 @@ h1 {
 
 #dataButtons button {
     padding: 10px 15px;
-    border: none;
+    border: groove;
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
@@ -165,7 +165,7 @@ h1 {
 #dataButtons input[type="file"] {
     display: inline-block;
     padding: 10px 15px;
-    border: 1px solid #666;
+    border: 1px groove #666;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
@@ -175,11 +175,11 @@ h1 {
 
 #sortOptions {
     padding: 10px;
-    border: 1px solid #666;
+    border: 1px groove #630b08;
     border-radius: 5px;
     font-size: 16px;
     appearance: none;
-    background-color: white;
+    background-color: #2596be;
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23343a40" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
     background-repeat: no-repeat;
     background-position: right .75rem center;
@@ -187,7 +187,7 @@ h1 {
 }
 
 #sortOptions:focus {
-    border-color: #80bdff;
+    border-color: #630b08;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
@@ -197,7 +197,7 @@ h1 {
     bottom: 20px;
     right: 20px;
     padding: 10px 15px;
-    border: none;
+    border: groove;
     background-color: #010f3d;
     color: white;
     cursor: pointer;
@@ -279,6 +279,7 @@ body:not(.dark-mode) #sortOptions {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 
 
 
