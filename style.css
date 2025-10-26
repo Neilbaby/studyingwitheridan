@@ -187,7 +187,7 @@ h1 {
     right: 20px;
     padding: 10px 15px;
     border: none;
-    background-color: #007bff;
+    background-color: #010f3d;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -261,3 +261,4 @@ body:not(.dark-mode) #sortOptions {
     color: var(--text-color, #ffffff);
 
 }
+
