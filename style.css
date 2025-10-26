@@ -10,14 +10,14 @@ h1 {
     color: #fff;
 }
 
-.rainbow-text {
-  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text; 
-  background-clip: text;
-  color: transparent;
-  font-size: 10em; 
-  font-weight: bold;
-}
+.rainbow-letters span:nth-child(1) { color: violet; }
+.rainbow-letters span:nth-child(2) { color: indigo; }
+.rainbow-letters span:nth-child(3) { color: blue; }
+.rainbow-letters span:nth-child(4) { color: green; }
+.rainbow-letters span:nth-child(5) { color: yellow; }
+.rainbow-letters span:nth-child(6) { color: orange; }
+.rainbow-letters span:nth-child(7) { color: red; }
+.rainbow-letters span:nth-child(8) { color: pink; }
 
 #searchBar {
     display: block;
@@ -278,6 +278,7 @@ body:not(.dark-mode) #sortOptions {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 
 
 
